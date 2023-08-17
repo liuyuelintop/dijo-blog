@@ -101,3 +101,71 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* LogIn & SignUp common styles */
+.log-in-container, .sign-up-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.log-in-container h2, .sign-up-container h2 {
+  font-size: 24px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.log-in-container input, .sign-up-container input {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 8px;
+}
+
+.log-in-container button, .sign-up-container button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.log-in-container p, .sign-up-container p {
+  color: #f1356d;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.log-out-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 100vh; This will center the button vertically on the page, adjust if needed */
+  padding-top: 80px;  /* Adjusts the position below the navbar. You can modify this value as per your navbar's height */
+}
+
+
+.log-out-container button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.log-out-container button:hover {
+  background: #e0245e; /* slightly darker shade for hover effect */
+}
